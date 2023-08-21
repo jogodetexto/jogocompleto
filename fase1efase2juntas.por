@@ -125,6 +125,7 @@ escreva("FFFFFFFFFFF  AAAAAAA                   AAAAAAASSSSSSSSSSSSSSS   EEEEEEE
 							u.aguarde(3000)
 							limpa()
 							fase2()
+							pare
 							
 						} senao se(opcao2=="N" ou opcao2=="n"){
 							enquanto(vida_gustavo>0 ou vida_zanette>0 ou vida_luigu>0 ou vida_antonio>0 e vida_preguica>0){
@@ -143,6 +144,7 @@ escreva("FFFFFFFFFFF  AAAAAAA                   AAAAAAASSSSSSSSSSSSSSS   EEEEEEE
 								u.aguarde(3000)
 								limpa()
 								fase2()
+								pare
 							}
 						}
 							
@@ -170,6 +172,7 @@ escreva("FFFFFFFFFFF  AAAAAAA                   AAAAAAASSSSSSSSSSSSSSS   EEEEEEE
 							u.aguarde(3000)
 							limpa()
 							fase2()
+							pare
 
 							
 						} senao se(opcao2=="N" ou opcao2=="n"){
@@ -190,6 +193,7 @@ escreva("FFFFFFFFFFF  AAAAAAA                   AAAAAAASSSSSSSSSSSSSSS   EEEEEEE
 								u.aguarde(3000)
 								limpa()
 								fase2()
+								pare
 							}
 						}
 							
@@ -217,6 +221,7 @@ escreva("FFFFFFFFFFF  AAAAAAA                   AAAAAAASSSSSSSSSSSSSSS   EEEEEEE
 							u.aguarde(3000)
 							limpa()
 							fase2()
+							pare
 							
 						} senao se(opcao2=="N" ou opcao2=="n"){
 							enquanto(vida_gustavo>0 ou vida_zanette>0 ou vida_luigu>0 ou vida_antonio>0 e vida_preguica>0){
@@ -235,6 +240,7 @@ escreva("FFFFFFFFFFF  AAAAAAA                   AAAAAAASSSSSSSSSSSSSSS   EEEEEEE
 								u.aguarde(3000)
 								limpa()
 								fase2()
+								pare
 							}
 						}
 							
@@ -310,6 +316,7 @@ escreva("FFFFFFFFFFF  AAAAAAA                   AAAAAAASSSSSSSSSSSSSSS   EEEEEEE
 							u.aguarde(3000)
 							limpa()
 							fase2()
+							pare
 
 							
 						} senao se(opcao2=="N" ou opcao2=="n"){
@@ -336,6 +343,7 @@ escreva("FFFFFFFFFFF  AAAAAAA                   AAAAAAASSSSSSSSSSSSSSS   EEEEEEE
 										u.aguarde(3000)
 										limpa()
 										fase2()
+										pare
 									}
 									limpa()
 								
@@ -352,6 +360,7 @@ escreva("FFFFFFFFFFF  AAAAAAA                   AAAAAAASSSSSSSSSSSSSSS   EEEEEEE
 								u.aguarde(3000)
 								limpa()
 								fase2()
+								pare
 							}
 					}
 					
@@ -388,6 +397,7 @@ escreva("FFFFFFFFFFF  AAAAAAA                   AAAAAAASSSSSSSSSSSSSSS   EEEEEEE
 							u.aguarde(3000)
 							limpa()
 							fase2()
+							pare
 
 							
 						} senao se(opcao2=="N" ou opcao2=="n"){
@@ -415,6 +425,7 @@ escreva("FFFFFFFFFFF  AAAAAAA                   AAAAAAASSSSSSSSSSSSSSS   EEEEEEE
 										u.aguarde(3000)
 										limpa()
 										fase2()
+										pare
 									}
 									limpa()
 								
@@ -431,6 +442,7 @@ escreva("FFFFFFFFFFF  AAAAAAA                   AAAAAAASSSSSSSSSSSSSSS   EEEEEEE
 								u.aguarde(3000)
 								limpa()
 								fase2()
+								pare
 							}
 					}
 					
@@ -466,6 +478,7 @@ escreva("FFFFFFFFFFF  AAAAAAA                   AAAAAAASSSSSSSSSSSSSSS   EEEEEEE
 							u.aguarde(3000)
 							limpa()
 							fase2()
+							pare
 
 							
 						} senao se(opcao2=="N" ou opcao2=="n"){
@@ -492,6 +505,7 @@ escreva("FFFFFFFFFFF  AAAAAAA                   AAAAAAASSSSSSSSSSSSSSS   EEEEEEE
 										u.aguarde(3000)
 										limpa()
 										fase2()
+										pare
 									}
 									limpa()
 								
@@ -508,6 +522,7 @@ escreva("FFFFFFFFFFF  AAAAAAA                   AAAAAAASSSSSSSSSSSSSSS   EEEEEEE
 								u.aguarde(3000)
 								limpa()
 								fase2()
+								pare
 							}
 						} senao{
 							escreva("\n\nOpção inválida!\n\n")
