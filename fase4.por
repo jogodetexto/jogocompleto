@@ -79,4 +79,12 @@ se(QuizGenio2 == D ou QuizGenio2 == d){
 	escreva("(Genio muito suspeito)- Tem sim, voces que tem mente muito limitada para responder, enfim....\n")
 	escreva("(Genio muito suspeito)- Agora, para voces sairem da floresta, voces terão que passar por uma toca que tem muitas coisaxx\n")
 	escreva("*****ELES SÃO LEVADOS AUTOMATICAMENTE PARA UM LUGAR MISTERIOSO*****\n")
-	escreva("
+	escreva("(Gustavo)- Oque acabou de acontecer?\n")
+	escreva("(Zanette)- Onde nois tá?\n")
+	escreva("(Luigu)- Cara, eu sabia que eu não devia ter pegado na lampada\n")
+	escreva("(Zanette)- Agora não ter oque choramingar, vamos tentar sair daqui logo\n")
+	escreva("(Gustavo)- E a bola? Desistiu de achar ela?\n")
+	escreva("(Zanette)- Não né, até por isso que chegamos até aqui, o objetivo é achar a bola né, e o João Antonio também agora\n")
+	escreva("(Luigu)- Pior, esse muleke foi fazer xixi e sumiu, tem mais essa ainda\n")
+	escreva("(Narrador)- Os 3 amigos vão caminhando pela toca misteriosa em busca de alguma pista de onde estão e de como sair\n")
+	escreva("(Zannete)-  
