@@ -8,9 +8,10 @@ programa
 	cadeia QuizGenio2
 	cadeia QuizGenio3
 	cadeia Coisaxx
+	inteiro VoltarOuFicar
 		se(save == "S" ou save == "s"){
 escreva("Agora voltando para quando o grupo se encontrou....\n  ")
-escreva("(Zanette)- Luigu?\n(Luigu)OIII, SOU EUUU!!\n(Zanette)- Aleluia se encontramos, nao foi uma boa ideia se separar.\n(Joao Antonio)- Verdade, eu quase morri, ainda bem que o luigu me salvou "
+escreva("(Zanette)- Luigu?\n(Luigu)OIII, SOU EUUU!!\n(Zanette)- Aleluia se encontramos, nao foi uma boa ideia se separar.\n(Joao Antonio)- Verdade, eu quase morri, ainda bem que o luigu me salvou ")
 escreva("(Luigu)- OIII, SOU EUUU!!\n")
 escreva("(Zanette)- Aleluia se encontramos, nao foi uma boa ideia se separar.\n")
 
@@ -20,7 +21,7 @@ escreva("(Zanette)- Verdade, que merda\n")
 escreva("(Joao Antonio)- Como assim?\n")
 escreca("Gustavo e Zanette)- Nada não....\n")
 escreva("(Luigu)- Vamos seguit juntos agora entao né?\n")
-escreva("(Todos)- Sim!!"\n)
+escreva("(Todos)- Sim!!\n")
 escreva("(Narrador)- Então os amigos seguem em busca da bola debravando a floresta perigosa\n")
 escreva("20 minutos caminhando depois...\n")
 escreva("(Joao Antonio)- Galera, estamos caminhando faz muito tempo já, to doido pra mijar\n")
@@ -75,16 +76,131 @@ se(QuizGenio2 == D ou QuizGenio2 == d){
 	escreva("(Genio muito suspeito)- Como se escreva tres dois seis quatro?\nA- 222444444\nB- 3264\nC- dois dois dois quatro quatro quatro quatro quatro quatro\nD- Não tem resposta\nResposta: ")leia(Coisaxx)
 	escreva("\n(Genio muito suspeito)- É, pois é, voces erraram, infelizmente...")
 	escreva("\n(Zanette)- COMO ASSIM???\n")
-	escreva("(Luigu)- Essa pergunta não tem sentido\n")
+	escreva("(Luigu)- Essa pergunta não tem sentido.\n")
 	escreva("(Genio muito suspeito)- Tem sim, voces que tem mente muito limitada para responder, enfim....\n")
 	escreva("(Genio muito suspeito)- Agora, para voces sairem da floresta, voces terão que passar por uma toca que tem muitas coisaxx\n")
+	escreva("(Genio muito suspeito)- Coisaxx que até mesmo eu tenho medo e não me atrevo chegar perto...\n")
 	escreva("*****ELES SÃO LEVADOS AUTOMATICAMENTE PARA UM LUGAR MISTERIOSO*****\n")
 	escreva("(Gustavo)- Oque acabou de acontecer?\n")
 	escreva("(Zanette)- Onde nois tá?\n")
 	escreva("(Luigu)- Cara, eu sabia que eu não devia ter pegado na lampada\n")
-	escreva("(Zanette)- Agora não ter oque choramingar, vamos tentar sair daqui logo\n")
+	escreva("(Zanette)- Agora não tem oque choramingar, vamos tentar sair daqui logo\n")
 	escreva("(Gustavo)- E a bola? Desistiu de achar ela?\n")
 	escreva("(Zanette)- Não né, até por isso que chegamos até aqui, o objetivo é achar a bola né, e o João Antonio também agora\n")
 	escreva("(Luigu)- Pior, esse muleke foi fazer xixi e sumiu, tem mais essa ainda\n")
 	escreva("(Narrador)- Os 3 amigos vão caminhando pela toca misteriosa em busca de alguma pista de onde estão e de como sair\n")
-	escreva("(Zannete)-  
+	escreva("(Luigu)- Galera, vamo voltar, sério.\n")
+	escreva("(Gustavo)- Se quiser voltar, volta voce, porque eu to de boa.\n")
+	escreva("(Zanette)- Eu tambem to de boa.\n")
+	escreva("E agora, Luigu deve voltar ou continuar com os seus amigos?\n1- Continuar\n2- Voltar\n")leia(VoltarOuFicar)
+	se(VoltarOuFicar == 1){
+		escreva("\n(Luigu)- Tá, vamo continuar então.\n")
+		escreva("*****5 MINUTOS DEPOIS*****\n")
+		escreva("(Gustavo)- Galera, SHIU!! Olha lá na frente.....\n")
+		escreva("(Todos)- É A NOSSA BOLA!!!\n")
+		escreva("(Zanette)- Eu como um bom conhecedor de animes e mangas, sei que isso pode ser facilmente uma amrmadilha.\n")
+		escreva("(Zanette)- Então não afoba, vamo de boa.\n")
+		escreva("(Zanette)- Pera... Quem é aquele do lado da bola?\n")
+		escreva("
+	}
+ se(VoltarOuFicar == 2){
+	escreva("(Luigu)- Então eu vou voltar, já estamos sem o João Antonio e eu não to afim de sumir tambem, foi mal, valeu aí.\n")
+	escreva("(Gustavo e Zanette)- Falou aí, te esperamos quando sairmos com a bola.\n")
+	escreva("(Gustavo)- De novo nos 2 eim, mas dessa vez é só nos 2 mesmo, um se mijou e foi embora e o outro peidou no final já\n")
+	escreva("(Zanette)- Pois é.\n")
+	escreva("(Luigu)- Esses cara são muito burros, voltar foi a escolha certa mesmo\n")
+	escreva("(*****BARULHO SUSPEITO*****\n")
+	escreva("(Lugiu)- EITA KARLAHO QUE ISSSO!\n")
+	escreva("(Luigu)- Quem é voce??\n")
+	escreva("(João Antonio)- Calma luigu, sou eu\n")
+	escreva("(Luigu)- Oque, como voce ta aqui?\n")
+	escreva("(João Antonio)- Depois eu te explico, mas cade o pessoal? Eles correm perigo!\n")
+	escreva("(Luigu)- Eu desisti de ir com eles, senti que ia acontecer algo e eles não quiseram voltar comigo.\n")
+	escreva("(Luigu)- Eles foram por ali!(Lado direito)\n")
+	escreva("(João Antonio)- Vamo pelo lado esquerdo que vou te explicando tudo.\n")
+	escreva("*****ELES COMEÇAM A CORRER*****\n")
+	escreva("(Luigu)- Tá, mas onde voce foi quando foi vazer xixi?\n")
+	escreva("(João Antonio)- Seguinte, vou te explicar tudo.\n")
+	escreva("(João Antonio)- Eu fui realmente fazer xixi, mas eu me distanciei um pouco de voces com medo de voces espiar....\n")
+	escreva("(João Antonio)- Aí eu me perdi, e achei a bola no meio do mato, fiquei super feliz e fui chamar voces.\n")
+	escreva("(João Antonio)- Mas bem na hora alguem passou muito rapido e pegou, e eu fui seguindo a pessoa.\n")
+	escreva("(João Antonio)- Uma hora a pessoa parou e puxou uma faca para FURAR A BOLA! Aí eu peguei uma pedra que tinha do meu lado e joguei la perto\n")
+	escreva("(João Antonio)- A pessoa na hora continuo correndo, e veio até aqui dentro, aí eu me perdi e achei voce agora\n")
+	escreva("(Luigu)- Meu deus que doidera cara!\n")
+	escreva("(Luigu)- Pera, XIU!! Olha la na frente\n")
+	escreva("(Luigu e João Antonio)- É a nossa bola!!\n")
+	escreva("(Luigu)- Cara, vamo lá pegar então né.\n")
+	escreva("(João Antonio)- Pera, não ta vendo não? Tem um cara do lado da bola\n")
+	escreva("(Luigu)- Cara, aquele não é qualquer cara....\n")
+	escreva("(João Antonio)- Realmente não é, pera... Não é possivel!\n")
+	escreva("(Luigu)- É ele?\n")
+	escreva("(João Antonio)- Não tem duvidas, é ele!\n")
+	escreva("(Luigu)- OQUE A PORRA DO ADEMAR TA FAZENDO AI COM NOSSA BOLA CARA\n")
+	escreva("(João Antonio)- ENTÂO CARA, KAKAKAKKA, AS IDEIA MANO.\n")
+	escreva("(Luigu)- Mas de qualquer jeito, vamo ficar aqui esperando ele bobear, e pegar a bola dele\n")
+	escreva("(João Antonio)- Ok\n")
+	escreva("*****NO MESMO INSTANTE*****\n")
+	escreva("(Zanette e Gustavo)- A BOLA CARA, A BOLA!!!!\n")
+	escreva("(Zanette)- Mas pera, tem alguem do lado dela\n")
+	escreva("*****ADEMAR PUXA UMA FACA E ENCOSTA NA BOLA*****\n")
+	escreva("(ADEMAR)- Eu sabia que voces iriam vir...\n")
+	escreva("(ADEMAR)- NÃO SE MEXAM!!!! Eu vou furar a bola se voces resistirem ou qualquer coisa do tipo!\n")
+	escreva("(Gustavo)- ADEMAR, MEU DEUS, O QUE VOCE TA FAZENDO AQUI CARA\n")
+	escreva("(ADEMAR)- Não questione, apenas obedeça...\n")
+	escreva("(ADEMAR)- Voces 2 apartir de agora são meus subordinados!! HUAHUAHUA\n")
+	escreva("(ADEMAR)- Voces vão fazer parte da minha fabria de Whey Protein, Creatina e Hormonios Anabolizantes\n")
+	escreva("(ADEMRA)- Sim, esse meu corpo não é feito somente de frango e batata dosce, SOU FAKE NATTY\n")
+	escreva("(ADEMAR)- E como revelei meu segredo para voces, agora não poderei mais liberar voces, infelizmente!\n")
+	escreva("(Zanette)- Nãoooo, não faz isso Ademar, porfavor, nós 2 somos jovens e ainda temos muito o que viver.\n")
+	escreva("(Gustavo)- Temos tanta coisa para viver ainda\n")
+	escreva("(ADEMAR)- Por isso mesmo, como voces são jovens, vou injetar Anabolizantes em voces, e com o passar do tempo\n")
+	escreva("(ADEMAR)- VOCES VÃO VIRAR MAQUINAS DE PRODUÇÃO PERFEITAS!!!! HAHAHAHHA\n")
+	escreva("(ADEMAR)- Tá vendo essa bola de voces?\n")
+	escreva("*****TUDO FICA EM CAMERA LENTA*****\n")
+	escreva("*****ADEMAR PUXA SUA FACA COM INTUITO DE FURAR A BOLA*****\n")
+	escreva("(Zanette e Gustavo)- Nãaaaaaooooooooooooooo\n")
+	escreva("(ADEMAR)- HUAHUAHUAHAUHAUHAUAHUA\n")
+	escreva("*****E QUANDO DE REPENTE!!!!*****")
+	escreva("(João Antonio e Luigu)- TE PEGAMOS ADEMAR!!!!\n")
+	escreva("(ADEMAR)- OQUEE?????\n")
+	escreva("*****JOÃO ANTONIO E LUIGU PEGAM ADEMAR DESTRAIDO E NOCAUTEIAM ELE*****\n")
+	escreva("(Luigu)- CORRE GUSTAVO!! PEGA A BOLA!!!!!!\n")
+	escreva("(Luigu)- ZANETTE, CORRE PARA FORA COM O JOÃO ANTONIO!!\n")
+	escreva("*****ADEMAR ACORDA E TENTA IMPEDIR ELES*****\n")
+	escreva("(João Antonio)- E voce luigu?\n")
+	escreva("(Luigu)- Eu me viro com o ADEMAR!!!!\n")
+	escreva("(Gustavo)- CARA VOCE VAI MORRER!!!\n")
+	escreva("(Luigu)- VAI LOGO GUSTAVO, SAIAM COM A BOLA SE NÃO TODOS VÃO MORRER!!!!\n")
+	escreva("*****ENTÃO A CAVERNA COMEÇA A SE DESMORONAR*****\n")
+	escreva("(ADEMAR)- LUIGU, SAI DA MINHA FRENTE!!\n")
+	escreva("*****LUIGU VAI IMPEDINDO ADEMAR DE SAIR DA CAVERNA(toca do ademar)*****")
+	escreva("(ADEMAR)- Luigu, EU E VOCE VAMOS MORRER ME SOLTA\n")
+	escreva("(Luigu)- Eu sei!!\n") 
+	escreva("(Luigu)- Ou voce morre como um heroi...\n")
+	escreva("(Luigu)- Ou voce....\n")
+	escreva("*****A CAVERNA CAI EM CIMA DOS DOIS ANTES DO LUIGU TERMINAR A FRASE DE EFEITO*****\n")
+	escreva("*****Luigu sacrificou sua vida pela dos seus amigos, uma atitude que fez ele ser lembrado como Heroi\n*****")
+	escreva("*****Felizmente seus amigos conseguem sair são e salvos*****\n")
+	escreva("()- Seu amigos continuam suas vidas e constroem uma linda historia cada um, graças ao Luigu\n")
+	escreva("()- João Pedro se tornou Presidente do Brail e instaurou uma ditadura que permanesse até os dias de hoje\n")
+	escreva("()- Gustavo vira traficante e cria muitos dependentes quimicos pela America do Sul\n")
+	escreva("()- João Antonio vira o dono da Blaze e engane trabalhadores honestos\n")
+	escreva("()- E assim se encerra a historia do Heroi Luigu e dos seus amigos que ele salvou.\n")
+	escreva("()- FIM!!!!!")
+	}
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	}senao{
+
+		
+	}
