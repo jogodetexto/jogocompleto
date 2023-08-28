@@ -1,4 +1,9 @@
 programa
+
+
+
+
+versao desuatualizada
 {
 	inclua biblioteca Texto
 	inclua biblioteca Util --> u
