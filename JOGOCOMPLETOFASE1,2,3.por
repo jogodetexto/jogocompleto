@@ -1349,7 +1349,7 @@ escreva("FF:::::::FF     A:::::A             A:::::A  SSSSSSS     S:::::SEE:::::
 escreva("F::::::::FF    A:::::A               A:::::A S::::::SSSSSS:::::SE::::::::::::::::::::E                                \n")
 escreva("F::::::::FF   A:::::A                 A:::::AS:::::::::::::::SS E::::::::::::::::::::E                                \n")
 escreva("FFFFFFFFFFF  AAAAAAA                   AAAAAAASSSSSSSSSSSSSSS   EEEEEEEEEEEEEEEEEEEEEE                                \n")u.aguarde(2000)
-
+limpa()
 
 	escreva("FFFFFFFFFFFFFFFFFFFFFF      AAA                 SSSSSSSSSSSSSSS EEEEEEEEEEEEEEEEEEEEEE      333333333333333   \n")
 		escreva("F::::::::::::::::::::F     A:::A              SS:::::::::::::::SE::::::::::::::::::::E     3:::::::::::::::33\n")
