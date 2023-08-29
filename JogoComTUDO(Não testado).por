@@ -1570,12 +1570,11 @@ limpa()
 
 		
 	}
-
-
+	
 
 	
-	funcao Joao(){
-	
+	funcao Tonhao(){
+
 		cadeia SairOuNao
 		cadeia EleDeve
 	cadeia QuizGenio1 = "a"
@@ -1594,7 +1593,6 @@ inteiro DanoAntonio
 inteiro Inter = 0
 		se(save == "S" ou save == "s"){
 escreva("Agora voltando para quando o grupo se encontrou....\n  ")
-escreva("(Zanette)- Luigu?\n(Luigu)OIII, SOU EUUU!!\n(Zanette)- Aleluia se encontramos, nao foi uma boa ideia se separar.\n(Joao Antonio)- Verdade, eu quase morri, ainda bem que o luigu me salvou ")
 escreva("(Luigu)- OIII, SOU EUUU!!\n")
 escreva("(Zanette)- Aleluia se encontramos, nao foi uma boa ideia se separar.\n")
 
@@ -1739,8 +1737,8 @@ escreva("(João Antonio)- CORRE GUSTAVO!! PEGA A BOLA!!!!!!\n")
 	escreva("(Narrador)- E assim se encerra a historia do Heroi João Antonio e dos seus amigos que ele salvou.\n")
 	escreva("(Narrador)- FIM!!!!!")
 	}
-	
-		
+
+
  se(VoltarOuFicar == 2){
 	escreva("(Luigu)- Então eu vou voltar, já estamos sem o João Antonio e eu não to afim de sumir tambem, foi mal, valeu aí.\n")
 	escreva("(Gustavo e Zanette)- Falou aí, te esperamos quando sairmos com a bola.\n")
@@ -1827,18 +1825,18 @@ escreva("(João Antonio)- CORRE GUSTAVO!! PEGA A BOLA!!!!!!\n")
 	escreva("(Narrador)- E assim se encerra a historia do Heroi Luigu e dos seus amigos que ele salvou.\n")
 	escreva("(Narrador)- FIM!!!!!")
 	}
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
+
+
+
+
+
+
+
+
+
+
+
+
 	}senao{
 escreva("*****VOLTANDO PARA QUANDO O GRUPO SE ENCONTRA*****\n")
 escreva("(Luigu)- Vamo logo continuar então, só nos 3 dessa vez né\n")
@@ -1931,15 +1929,15 @@ se(SairOuNao == "S" ou SairOuNao == "s"){
 	escreva("(Luigu)- Vem com tudo seu bananao\n")
 	escreva("*****ENTÃO A LUTA COMEÇA!!*****\n")
 	enquanto(VidaLuigu > 20){
-		
+
 		VidaLuigu = VidaLuigu - DanoBixo
 		VidaBixo = VidaBixo - (SorteioChute + SorteioSoco)
-		
-		
+
+
 		escreva("STATUS VIDA LUIGU:", VidaLuigu, "\n")
 		escreva("STATUS VIDA JOÃO ANTONIO:", VidaBixo, "\n")
 		escreva("Round Luigu: 1- Soco, 2- Chute, 3- TENTAR desviar do ataque do João Antonio\nEscolha: ")leia(DanoLuigu)
-		
+
 		se(DanoLuigu == 1){
 			SorteioSoco=u.sorteia(6, 13)
 		SorteioChute = 0
@@ -1954,13 +1952,13 @@ se(SairOuNao == "S" ou SairOuNao == "s"){
 			SorteioDesvio=u.sorteia(1,3)
 			SorteioChute = 0
 			SorteioSoco = 0
-		
+
 			}
-			DanoBixo=u.sorteia(10,20) escreva("João Antonio da um soco no luigu que causa ", DanoBixo, " de dano")
+			DanoBixo=u.sorteia(10,20) escreva("João Antonio da um soco no luigu que causa ", DanoBixo, " de dano\n")
 			se(SorteioDesvio == 3){ DanoBixo = 0 
 			escreva("Luigu consegue desviar do ataque do João Antonio e não toma dano.\n")
 			}senao{ escreva("Luigu não consegue desviar do ataque do João Antonio e vai tomar o dano do ataque.\n")}
-			
+
 	}escreva("(Narrador)- Luigu leva um ataque que deixa ele com muita pouca vida, porem enquanto eles estavam batalhando...\n")
 	escreva("(Gustavo)- Tenho que correr logo para sair o mais rapido possivel, pera, quem é aquele vindo?\n")
 	escreva("(Gustavo)- Zanette?\n")
@@ -1996,11 +1994,14 @@ se(SairOuNao == "S" ou SairOuNao == "s"){
 	inteiro VidaZanet = 1
 	inteiro VidaAntonio = 150
 	inteiro DanoZanet
-	enquanto(VidaAntonio > 1){
-	
+	SorteioSoco= 0
+		SorteioChute = 0
+		SorteioDesvio = 0
+	enquanto(VidaAntonio > 20){
+
 		VidaZanet = 1
-		VidaBixo = VidaBixo - (SorteioChute + SorteioSoco + SorteioDesvio)
-		
+		VidaAntonio = VidaAntonio - (SorteioChute + SorteioSoco + SorteioDesvio)
+
 	escreva("STATUS VIDA ZANETTE:", VidaZanet, "\n")
 		escreva("STATUS VIDA JOÃO ANTONIO:", VidaAntonio, "\n")
 		escreva("Round Zanette: 1-  BatSoco, 2- BatChute, 3- BatTapa \nEscolha: ")leia(DanoZanet)
@@ -2009,20 +2010,20 @@ se(SairOuNao == "S" ou SairOuNao == "s"){
 			SorteioSoco=u.sorteia(1, 2)
 		SorteioChute = 0
 		SorteioDesvio = 0
-		escreva("Luigu da um soco no Bixo que causa ", SorteioSoco, " de dano\n")
+		escreva("Zanette da um soco no João Antonio que causa ", SorteioSoco, " de dano\n")
 		}se(DanoZanet == 2){
 			SorteioChute=u.sorteia(1, 2)
 		SorteioSoco = 0
 		SorteioDesvio = 0
-		escreva("Luigu da um chute no Bixo que causa ", SorteioChute, " de dano\n")
+		escreva("Zanette da um chute no João Antonio que causa ", SorteioChute, " de dano\n")
 		}se(DanoZanet == 3){
-			SorteioDesvio=u.sorteia(100, 500)
+			SorteioDesvio=u.sorteia(20,30)
 			SorteioChute = 0
 			SorteioSoco = 0
-		
+
 			}
-			DanoAntonio = u.sorteia(10,20) escreva("João Antonio da um soco no luigu que causa ", DanoBixo, " de dano")
-			 
+			DanoAntonio = u.sorteia(10,20) escreva("João Antonio da um soco no Zanette que causa ", DanoAntonio, " de dano")
+
 			escreva("Zanette consegue desviar do ataque do João Antonio e não toma dano.\n")
 	}
 	escreva("(Zanette)- Im batman!!!\n")
@@ -2035,17 +2036,17 @@ se(SairOuNao == "S" ou SairOuNao == "s"){
 	escreva("(Narrador)- E assim se encerra a historia do Heroi Zanette e dos seus amigos que ele salvou.\n")
 	escreva("(Narrador)- FIM!!!!!!")
 
-	
-			
 
-	
-		
-	
-	
-	
-	
-	
-	
+
+
+
+
+
+
+
+
+
+
 	}senao{
 		escreva("(Pessoa misteriosa)- Voce vai se arrepender de não ter fugido!!\n")
 escreva("(Zanette)- Não, eu não vou.\n")
@@ -2109,15 +2110,15 @@ escreva("*****10 MINUTOS DEPOIS*****\n")
 	escreva("(Luigu)- Vem com tudo seu bananao\n")
 	escreva("*****ENTÃO A LUTA COMEÇA!!*****\n")
 	enquanto(VidaLuigu > 20){
-		
+
 		VidaLuigu = VidaLuigu - DanoBixo
 		VidaBixo = VidaBixo - (SorteioChute + SorteioSoco)
-		
-		
+
+
 		escreva("STATUS VIDA LUIGU:", VidaLuigu, "\n")
 		escreva("STATUS VIDA JOÃO ANTONIO:", VidaBixo, "\n")
 		escreva("Round Luigu: 1- Soco, 2- Chute, 3- TENTAR desviar do ataque do João Antonio\nEscolha: ")leia(DanoLuigu)
-		
+
 		se(DanoLuigu == 1){
 			SorteioSoco=u.sorteia(6, 13)
 		SorteioChute = 0
@@ -2132,13 +2133,13 @@ escreva("*****10 MINUTOS DEPOIS*****\n")
 			SorteioDesvio=u.sorteia(1,3)
 			SorteioChute = 0
 			SorteioSoco = 0
-		
+
 			}
-			DanoBixo=u.sorteia(10,20) escreva("João Antonio da um soco no luigu que causa ", DanoBixo, " de dano")
+			DanoBixo=u.sorteia(10,20) escreva("João Antonio da um soco no luigu que causa ", DanoBixo, " de dano\n")
 			se(SorteioDesvio == 3){ DanoBixo = 0 
 			escreva("Luigu consegue desviar do ataque do João Antonio e não toma dano.\n")
 			}senao{ escreva("Luigu não consegue desviar do ataque do João Antonio e vai tomar o dano do ataque.\n")}
-			
+
 	}escreva("(Narrador)- Luigu leva um ataque que deixa ele com muita pouca vida, porem enquanto eles estavam batalhando...\n")
 	escreva("(Gustavo)- Tenho que correr logo para sair o mais rapido possivel, pera, quem é aquele vindo?\n")
 	escreva("(Gustavo)- Zanette?\n")
@@ -2174,11 +2175,14 @@ escreva("*****10 MINUTOS DEPOIS*****\n")
 	inteiro VidaZanet = 1
 	inteiro VidaAntonio = 150
 	inteiro DanoZanet
-	enquanto(VidaAntonio > 1){
-	
+	SorteioSoco= 0
+		SorteioChute = 0
+		SorteioDesvio = 0
+	enquanto(VidaAntonio > 20){
+
 		VidaZanet = 1
-		VidaBixo = VidaBixo - (SorteioChute + SorteioSoco + SorteioDesvio)
-		
+		VidaAntonio = VidaAntonio - (SorteioChute + SorteioSoco + SorteioDesvio)
+
 	escreva("STATUS VIDA ZANETTE:", VidaZanet, "\n")
 		escreva("STATUS VIDA JOÃO ANTONIO:", VidaAntonio, "\n")
 		escreva("Round Zanette: 1-  BatSoco, 2- BatChute, 3- BatTapa \nEscolha: ")leia(DanoZanet)
@@ -2187,20 +2191,20 @@ escreva("*****10 MINUTOS DEPOIS*****\n")
 			SorteioSoco=u.sorteia(1, 2)
 		SorteioChute = 0
 		SorteioDesvio = 0
-		escreva("Luigu da um soco no Bixo que causa ", SorteioSoco, " de dano\n")
+		escreva("Zanette da um soco no João Antonio que causa ", SorteioSoco, " de dano\n")
 		}se(DanoZanet == 2){
 			SorteioChute=u.sorteia(1, 2)
 		SorteioSoco = 0
 		SorteioDesvio = 0
-		escreva("Luigu da um chute no Bixo que causa ", SorteioChute, " de dano\n")
+		escreva("Zanette da um chute no João Antonio que causa ", SorteioChute, " de dano\n")
 		}se(DanoZanet == 3){
-			SorteioDesvio=u.sorteia(100, 500)
+			SorteioDesvio=u.sorteia(20, 30)
 			SorteioChute = 0
 			SorteioSoco = 0
-		
+
 			}
-			DanoAntonio = u.sorteia(10,20) escreva("João Antonio da um soco no luigu que causa ", DanoBixo, " de dano")
-			 
+			DanoAntonio = u.sorteia(10,20) escreva("João Antonio da um soco no Zanette que causa ", DanoAntonio, " de dano\n")
+
 			escreva("Zanette consegue desviar do ataque do João Antonio e não toma dano.\n")
 	}
 	escreva("(Zanette)- Im batman!!!\n")
@@ -2227,43 +2231,47 @@ escreva("*****10 MINUTOS DEPOIS*****\n")
 
 
 
-		
+
 	}
 
 
-		
+
 }
-		
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 	}
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
+
+
+
+
+
+
+
+
+
+
+
+
+
+}
 	
 	
 	
