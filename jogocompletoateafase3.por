@@ -550,7 +550,7 @@ escreva("FFFFFFFFFFF  AAAAAAA                   AAAAAAASSSSSSSSSSSSSSS   EEEEEEE
 					escreva("(Gustavo)-OOOOOOIIII, \"TÔ\" INDO AÍ!\n\n")u.aguarde(2000)
 					escreva("Segundos depois, eles se encontram.\n\n")u.aguarde(2000)
 					escreva("(Gustavo)-Por que vocês estão aqui?\n")u.aguarde(2000)
-					escreva("(Zanette)-Ficamos com medo pela demora e viemos te procurar.")u.aguarde(1500) escreva(" \"Boremos\" buscar juntos, vai ser da hora.\n")u.aguarde(2000)
+					escreva("(Zanette)-Ficamos com medo pela demora e viemos te procurar.")u.aguarde(1500) escreva(" agente veio buscar juntos, vai ser da hora.\n")u.aguarde(2000)
 					escreva("\nEntão, lá se vai o grupo atrás da bola!")u.aguarde(3500)
 					limpa()
 
