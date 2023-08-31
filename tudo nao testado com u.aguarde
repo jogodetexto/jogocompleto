@@ -2217,10 +2217,10 @@ se(SairOuNao == "S" ou SairOuNao == "s"){
 	u.aguarde(4200)
 	escreva("(Luigu)- Como assim???\n")
 	u.aguarde(1600)
-	escreva("*****PESSOA MISTERIOSA TIRA A MASCARA*****\n")
+	escreva("\n*****PESSOA MISTERIOSA TIRA A MASCARA*****\n\n")
 	u.aguarde(3000)
-	escreva("(Luigu)- Como isso é possivel!! Voce eu vi o monstro te matar. Achei que voce tinha morrido\n")
-	u.aguarde()
+	escreva("(Luigu)- Como isso é possivel!! Eu vi o monstro te matar. Achei que voce tinha morrido.\n")
+	u.aguarde(4000)
 	escreva("(João Antonio)- Achou errado otario, eu me aliei ao monstro, ele teve piedade de min\n")
 	u.aguarde(3000)
 	escreva("(João Antonio)- Ele me deixou mais forte, e a unica coisa que preciso fazer....\n")
@@ -2238,64 +2238,98 @@ se(SairOuNao == "S" ou SairOuNao == "s"){
 
 
 		escreva("STATUS VIDA LUIGU:", VidaLuigu, "\n")
-		
+		u.aguarde(1000)
 		escreva("STATUS VIDA JOÃO ANTONIO:", VidaBixo, "\n")
-		
+		u.aguarde(1000)
 		escreva("Round Luigu: 1- Soco, 2- Chute, 3- TENTAR desviar do ataque do João Antonio\nEscolha: ")leia(DanoLuigu)
-
+u.aguarde(700)
 		se(DanoLuigu == 1){
 			SorteioSoco=u.sorteia(6, 13)
 		SorteioChute = 0
 		SorteioDesvio = 0
-		escreva("Luigu da um soco no Bixo que causa ", SorteioSoco, " de dano\n")
+		escreva("Luigu da um soco no João Antonio que causa ", SorteioSoco, " de dano.\n")
+		u.aguarde(2500)
 		}se(DanoLuigu == 2){
 			SorteioChute=u.sorteia(1, 20)
 		SorteioSoco = 0
 		SorteioDesvio = 0
-		escreva("Luigu da um chute no Bixo que causa ", SorteioChute, " de dano\n")
+		escreva("Luigu da um chute no João Antonio que causa ", SorteioChute, " de dano\n")
+		u.aguarde(2500)
 		}se(DanoLuigu == 3){
 			SorteioDesvio=u.sorteia(1,3)
 			SorteioChute = 0
 			SorteioSoco = 0
 
 			}
-			DanoBixo=u.sorteia(10,20) escreva("João Antonio da um soco no luigu que causa ", DanoBixo, " de dano\n")
+			DanoBixo=u.sorteia(10,20) escreva("João Antonio da um soco no luigu que causa ", DanoBixo, " de dano.\n")u.aguarde(2500)
 			se(SorteioDesvio == 3){ DanoBixo = 0 
-			escreva("Luigu consegue desviar do ataque do João Antonio e não toma dano.\n")
-			}senao{ escreva("Luigu não consegue desviar do ataque do João Antonio e vai tomar o dano do ataque.\n")}
+			escreva("Luigu consegue desviar do ataque do João Antonio e não toma dano.\n")u.aguarde(2500)
+			}senao{ escreva("Luigu não consegue desviar do ataque do João Antonio e vai tomar o dano do ataque.\n")u.aguarde(2500)}
 
-	}escreva("(Narrador)- Luigu leva um ataque que deixa ele com muita pouca vida, porem enquanto eles estavam batalhando...\n")
+	}escreva("(Narrador)- Luigu leva um ataque que deixa ele com muita pouca vida, porem, enquanto eles estavam batalhando...\n")
+	u.aguarde(4000)
 	escreva("(Gustavo)- Tenho que correr logo para sair o mais rapido possivel, pera, quem é aquele vindo?\n")
+	u.aguarde(3000)
 	escreva("(Gustavo)- Zanette?\n")
-	escreva("(Zanette)- Não tenho tempo, sai logo daqui, cade o Luigu?\n")
+	u.aguarde(1200)
+	escreva("(Zanette)- Não tenho tempo pra falar agora, cade o Luigu?\n")
+	u.aguarde(2300)
 	escreva("(Gustavo)- Só ir seguindo esse caminho, mas...\n")
-	escreva("(Zanette)- Ok, obrigado\n")
-	escreva("(Narrador)- Então o Zanette segue na correndo na caverna para chegar na sala onde Luigu está batalhando\n")
+	u.aguarde(2000)
+	escreva("(Zanette)- Ok, obrigado.\n")
+	u.aguarde(1800)
+	escreva("(Narrador)- Então o Zanette segue na correndo na caverna para chegar na sala onde Luigu está batalhando.\n")
+	u.aguarde(3500)
 	escreva("(Zanette)- Será que é aqui?\n")
-	escreva("*****BARULHO DE SOCOS*****\n")
-	escreva("(Zanette)- Deve ser aqui mesmo\n")
+	u.aguarde(1500)
+	escreva("\n*****BARULHO DE SOCOS*****\n\n")
+	u.aguarde(1600)
+	escreva("(Zanette)- Deve ser aqui mesmo.\n")
+	u.aguarde(1800)
 	escreva("(Zanette)- Pera, porque o João Antonio tá brigando com o Luigu?\n")
+	u.aguarde(2500)
 	escreva("(Luigu)- João Antonio por favor, deixa eu fugir, não me mata\n")
+	u.aguarde(2500)
 	escreva("(João Antonio)- Voce é muito bom em fugir, e deixar os outros para trás, dessa vez voce nao vai fugir!!\n")
-	escreva("*****JOÃO ANTONIO ARMA UM SOCO PARA FINALIZAR LUIGU*****\n")
-	escreva("*****TUDO FICA EM CAMERA LENTA*****\n")
+	u.aguarde(3500)
+	escreva("\n*****JOÃO ANTONIO ARMA UM SOCO PARA FINALIZAR LUIGU*****\n")
+	u.aguarde(2500)
+	escreva("*****TUDO FICA EM CAMERA LENTA*****\n\n")
+	u.aguarde(2000)
 	escreva("(João Antonio)- Vou vingar tudo que voce fez pra min!!!!\n")
+	u.aguarde(2500)
 	escreva("(Luigu)- Então é assim que vai acabar??? Sou tão jovem!!\n")
-	escreva("*****QUANDO DERREPENTE*****\n")
+	u.aguarde(2500)
+	escreva("\n*****QUANDO DERREPENTE*****\n\n")
+	u.aguarde(2000)
 	escreva("(Zanette)- TOMA ESSA!!!!\n")
+	u.aguarde(1800)
 	escreva("(João Antonio)- Voce aqui?\n")
-	escreva("*****A PANCADA NOCAUTEIA JOÂO ANTONIO*****\n")
+	u.aguarde(1800)
+	escreva("\n*****A PANCADA DE ZANETTE NOCAUTEIA JOÂO ANTONIO*****\n\n")
+	u.aguarde(2500)
 	escreva("(Zanette)- CORRE LUIGU, VAI!!!!\n")
+	u.aguarde(1800)
 	escreva("(Luigu)- Mas e voce??\n")
+	u.aguarde(1800)
 	escreva("(Zanette)- Deixa que eu resolvo isso!!\n")
+	u.aguarde(2000)
 	escreva("*****JOÃO ANTONIO SE LEVANTA*****\n")
+	u.aguarde(2000)
 	escreva("(Zanette)- Para vencer esse duelo, vou ter mostrar minha verdadeira indentidade!!\n")
-	escreva("Zanette deve revaler sua indentidade? S/N\n")
+	u.aguarde(3000)
+	escreva("Zanette deve revaler sua indentidade? S/N\nEscolha: ")
 	leia(EleDeve)
-	se(EleDeve == "S" ou EleDeve == "s"){escreva("(Zanette)- Eu sou o BATMAN!!")}senao{escreva("(Zanette)- Não ligo para sua opnião, vou revelar ela mesmo assim\n(Zanette)- EU SOU O BATMAN!!!\n")}
+	se(EleDeve == "S" ou EleDeve == "s"){u.aguarde(1000)escreva("\n(Zanette)- Eu sou o BATMAN!!")}senao{u.aguarde(1000) escreva("\n(Zanette)- Não ligo para sua opnião, vou revelar ela mesmo assim\n(Zanette)- EU SOU O BATMAN!!!\n")}
+	u.aguarde(1000)
 	escreva("(João Antonio)- O BATMAN???? SERIO??\n")
+	u.aguarde(1800)
 	escreva("(Zanette)- Sim, eu sou literalmente o Batman, mas enfim, vou te matar logo!!\n")
-	escreva("*****COMEÇA O DUELO!!*****\n")
+	u.aguarde(2700)
+	escreva("\n*****COMEÇA O DUELO!!*****\n")
+	
+	u.aguarde(1800)
+	limpa()
 	inteiro VidaZanet = 1
 	inteiro VidaAntonio = 150
 	inteiro DanoZanet
@@ -2308,7 +2342,9 @@ se(SairOuNao == "S" ou SairOuNao == "s"){
 		VidaAntonio = VidaAntonio - (SorteioChute + SorteioSoco + SorteioDesvio)
 
 	escreva("STATUS VIDA ZANETTE:", VidaZanet, "\n")
+	u.aguarde(1500)
 		escreva("STATUS VIDA JOÃO ANTONIO:", VidaAntonio, "\n")
+		u.aguarde(1500)
 		escreva("Round Zanette: 1-  BatSoco, 2- BatChute, 3- BatTapa \nEscolha: ")leia(DanoZanet)
 
 		se(DanoZanet == 1){
