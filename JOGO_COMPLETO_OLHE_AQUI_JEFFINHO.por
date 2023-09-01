@@ -2399,7 +2399,7 @@ u.aguarde(700)
 	u.aguarde(3000)limpa()
 	escreva("Zanette deve revaler sua indentidade? S/N\nEscolha: ")
 	leia(EleDeve)
-	se(EleDeve == "S" ou EleDeve == "s"){u.aguarde(1000)escreva("\n(Zanette)- Eu sou o BATMAN!!")}senao{u.aguarde(1000) escreva("\n(Zanette)- Não ligo para sua opnião, vou revelar ela mesmo assim\n(Zanette)- EU SOU O BATMAN!!!\n")}
+	se(EleDeve == "S" ou EleDeve == "s"){u.aguarde(1000)escreva("\n(Zanette)- Eu sou o BATMAN!!\n")}senao{u.aguarde(1000) escreva("\n(Zanette)- Não ligo para sua opnião, vou revelar ela mesmo assim\n(Zanette)- EU SOU O BATMAN!!!\n")}
 	u.aguarde(1000)
 	escreva("(João Antonio)- O BATMAN???? SERIO??\n")
 	u.aguarde(1800)
@@ -2616,7 +2616,7 @@ escreva("(Luigu)- Olha lá na frente, uma caverna!!\n")
 	escreva("*****ENTÃO A LUTA COMEÇA!!*****\n")
 	u.aguarde(2300)
 	enquanto(VidaLuigu > 20){
-
+limpa()
 VidaLuigu = VidaLuigu - DanoBixo
 		VidaBixo = VidaBixo - (SorteioChute + SorteioSoco)
 
@@ -2705,7 +2705,7 @@ escreva("\n*****BARULHO DE SOCOS*****\n\n")
 	u.aguarde(3000)limpa()
 	escreva("Zanette deve revaler sua indentidade? S/N\nEscolha: ")
 	leia(EleDeve)
-	se(EleDeve == "S" ou EleDeve == "s"){u.aguarde(1000)escreva("\n(Zanette)- Eu sou o BATMAN!!")}senao{u.aguarde(1000) escreva("\n(Zanette)- Não ligo para sua opnião, vou revelar ela mesmo assim\n(Zanette)- EU SOU O BATMAN!!!\n")}
+	se(EleDeve == "S" ou EleDeve == "s"){u.aguarde(1000)escreva("\n(Zanette)- Eu sou o BATMAN!!\n")}senao{u.aguarde(1000) escreva("\n(Zanette)- Não ligo para sua opnião, vou revelar ela mesmo assim\n(Zanette)- EU SOU O BATMAN!!!\n")}
 	u.aguarde(1000)
 	escreva("(João Antonio)- O BATMAN???? SERIO??\n")
 	u.aguarde(1800)
@@ -2811,10 +2811,9 @@ escreva("FFFFFFFFFFF           IIIIIIIIIIMMMMMMMM               MMMMMMMM\n")
  * Esta seção do arquivo guarda informações do Portugol Studio.
  * Você pode apagá-la se estiver utilizando outro editor.
  * 
- * @POSICAO-CURSOR = 67629; 
- * @DOBRAMENTO-CODIGO = [1368, 1410];
+ * @POSICAO-CURSOR = 139476; 
  * @PONTOS-DE-PARADA = ;
  * @SIMBOLOS-INSPECIONADOS = ;
  * @FILTRO-ARVORE-TIPOS-DE-DADO = inteiro, real, logico, cadeia, caracter, vazio;
  * @FILTRO-ARVORE-TIPOS-DE-SIMBOLO = variavel, vetor, matriz, funcao;
- */
+ */ 
