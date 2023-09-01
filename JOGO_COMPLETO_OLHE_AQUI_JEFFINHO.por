@@ -84,14 +84,14 @@ escreva("FFFFFFFFFFF  AAAAAAA                   AAAAAAASSSSSSSSSSSSSSS   EEEEEEE
 
 		se(resposta=="S" ou resposta=="s"){
 			u.aguarde(1000)
-			escreva("\n(Gustavo)-\"Tá\", eu busco sozinho.\n")u.aguarde(2500)
+			escreva("\n(Gustavo)-Tá, eu busco sozinho.\n")u.aguarde(2500)
 			escreva("(Zanette)-Você vai ser sequestrado hahahahaha...\n")u.aguarde(2500)
 			escreva("(João Antonio)-Tomara que morra HAHAHAHAHA...")u.aguarde(2500)
 			limpa()
-			escreva("Então, nosso herói nada corajoso vai para a floresta tentar consertar a \"cagada\" que fez.\n")u.aguarde(2000)
-			escreva("Ele encontra várias árvores gigantes, escuras e tenebrosas...\n")u.aguarde(2000)
-			escreva("Gustavo ouve alguns barulhos estranhos, como se tivesse alguém martelando algo...\n")u.aguarde(2000)
-			escreva("Aproximando-se do barulho, ele encontra uma barraquinha!\n\n")u.aguarde(2000)
+			escreva("(Narração)-Então, nosso herói nada corajoso vai para a floresta tentar consertar o que fez.\n")u.aguarde(2000)
+			escreva("(Narração)-Ele encontra várias árvores gigantes, escuras e tenebrosas...\n")u.aguarde(2000)
+			escreva("(Narração)-Gustavo ouve alguns barulhos estranhos, como se tivesse alguém martelando algo...\n")u.aguarde(2000)
+			escreva("(Narração)-Aproximando-se do barulho, ele encontra uma barraquinha!\n\n")u.aguarde(2000)
 			escreva("(Gustavo)-Oi? Qual é seu nome, moço?\n")u.aguarde(2000)
 			escreva("(Robertinho)-Olá adolescente estranho, meu nome é Robertinho.")u.aguarde(1000) escreva(" No que posso ajudar?\n")u.aguarde(2500)
 			escreva("(Gustavo)-Obrigado pelo elogio.")u.aguarde(1000) escreva(" Estou procurando uma bola perdida. Por acaso você viu ela?\n")u.aguarde(2500)
@@ -261,16 +261,16 @@ escreva("FFFFFFFFFFF  AAAAAAA                   AAAAAAASSSSSSSSSSSSSSS   EEEEEEE
 			
 		}senao se(resposta=="N" ou resposta=="n"){
 			u.aguarde(1000)
-			escreva("\n(Gustavo)-Não \"pô\", vamos buscar juntos!\n")u.aguarde(2500)
-			escreva("(Luigu)-Então, vai ser massa \"pra\" caramba.\n")u.aguarde(2500)
-			escreva("(João Antônio e Zanette)-A... então bora né")u.aguarde(2500)
+			escreva("\n(Gustavo)-Não pô, vamos buscar juntos!\n")u.aguarde(2500)
+			escreva("(Luigu)-Então, vai ser massa pra caramba.\n")u.aguarde(2500)
+			escreva("(João Antônio e Zanette)-Ah... então bora né")u.aguarde(2500)
 			limpa()
-			escreva("Então, nossos heróis nada corajosos foram para a floresta para procurarem a maldita bola!\n")u.aguarde(2000)
-			escreva("Eles observavam várias árvores tenebrosas...\n\n")u.aguarde(2000)
+			escreva("(Narração)-Então, nossos heróis nada corajosos foram para a floresta para procurarem a maldita bola!\n")u.aguarde(2000)
+			escreva("(Narração)-Eles observavam várias árvores tenebrosas...\n\n")u.aguarde(2000)
 			escreva("(João Antônio)-Que barulho é esse?\n")u.aguarde(2000)
 			escreva("(Luigu)-Parece alguém martelando algo...")u.aguarde(1000) escreva(" Vamos atrás deste barulho.\n")u.aguarde(1000)
 			escreva("(Zanette)-Olha lá galera, uma barraquinha!\n\n")u.aguarde(2000)
-			escreva("O grupo chega perto da barraquinha e eles encontram um carinha...\n\n")u.aguarde(2000)
+			escreva("(Narração)-O grupo chega perto da barraquinha e eles encontram um carinha...\n\n")u.aguarde(2000)
 			escreva("(Gustavo)-Olá moço, como se chama?\n")u.aguarde(1500)
 			escreva("(Robertinho)-Opa, sou Robertinho. Procuram alguma coisa?\n")u.aguarde(2000)
 			escreva("(Gustavo)-Estamos procurando uma bola perdida.")u.aguarde(1000) escreva(" Por acaso você viu alguma por aí?\n")u.aguarde(1500)
@@ -300,7 +300,7 @@ escreva("FFFFFFFFFFF  AAAAAAA                   AAAAAAASSSSSSSSSSSSSSS   EEEEEEE
 					limpa()
 					escreva("(Gustavo)-Eu comprei a peixeira. E vocês?\n")u.aguarde(2000)
 					escreva("(Luigu)-Eu peguei a faquinha de serra. Fiquei com ",reais_luigu, " reais.\n")u.aguarde(1000)
-					escreva("(Zanette)-Eu comprei os dardos. Fiquei com ",reais_zanette," reais.")u.aguarde(1000) escreva(" Tadinho do Jõao Antônio, sobrou nada \"pra\" ele.\n")u.aguarde(2000)
+					escreva("(Zanette)-Eu comprei os dardos. Fiquei com ",reais_zanette," reais.")u.aguarde(1000) escreva(" Tadinho do Jõao Antônio, sobrou nada pra ele.\n")u.aguarde(2000)
 					escreva("(João Antônio)-Eu me garanto no soco!\n")u.aguarde(2000)
 					escreva("(Todos)-AHAM.")u.aguarde(2000)
 
@@ -381,7 +381,7 @@ escreva("FFFFFFFFFFF  AAAAAAA                   AAAAAAASSSSSSSSSSSSSSS   EEEEEEE
 					limpa()
 					escreva("(Gustavo)-Eu comprei a faquinha de serra. E vocês?\n")u.aguarde(2000)
 					escreva("(Luigu)-Eu peguei a peixeira. Fiquei com ",reais_luigu," reais.\n")u.aguarde(1000)
-					escreva("(Zanette)-Eu comprei os dardos. Fiquei com ",reais_zanette," reais.")u.aguarde(1000) escreva(" Tadinho do Jõao Antônio, sobrou nada \"pra\" ele.\n")u.aguarde(2000)
+					escreva("(Zanette)-Eu comprei os dardos. Fiquei com ",reais_zanette," reais.")u.aguarde(1000) escreva(" Tadinho do Jõao Antônio, sobrou nada pra ele.\n")u.aguarde(2000)
 					escreva("(João Antônio)-Eu me garanto no soco!\n")u.aguarde(2000)
 					escreva("(Todos)-AHAM.")u.aguarde(2000)
 
@@ -463,7 +463,7 @@ escreva("FFFFFFFFFFF  AAAAAAA                   AAAAAAASSSSSSSSSSSSSSS   EEEEEEE
 					limpa()
 					escreva("(Gustavo)-Eu comprei os dardos. E vocês?\n")u.aguarde(2000)
 					escreva("(Luigu)-Eu peguei a faquinha de serra. Fiquei com ",reais_luigu," reais.\n")u.aguarde(1000)
-					escreva("(Zanette)-Eu comprei a peixeira. Fiquei com ",reais_zanette," reais.")u.aguarde(1000) escreva(" Tadinho do Jõao Antônio, sobrou nada \"pra\" ele.\n")u.aguarde(2000)
+					escreva("(Zanette)-Eu comprei a peixeira. Fiquei com ",reais_zanette," reais.")u.aguarde(1000) escreva(" Tadinho do Jõao Antônio, sobrou nada pra ele.\n")u.aguarde(2000)
 					escreva("(João Antônio)-Eu me garanto no soco!\n")u.aguarde(2000)
 					escreva("(Todos)-AHAM.")u.aguarde(2000)
 					
@@ -541,21 +541,21 @@ escreva("FFFFFFFFFFF  AAAAAAA                   AAAAAAASSSSSSSSSSSSSSS   EEEEEEE
 	}
 	}
 	funcao dialogoSozinhoAposCompra(){
-			escreva("(Gustavo)-Muito obrigado, moço!")u.aguarde(1000) escreva(" Agora \"tô\" com um cagaço de entrar nessa p#$%@ mas tudo bem...\n")u.aguarde(2000)
+			escreva("(Gustavo)-Muito obrigado, moço!")u.aguarde(1000) escreva(" Agora tô com um medo de entrar nessa floresta mas tudo bem...\n")u.aguarde(2000)
 					escreva("(Robertinho)-Boa sorte.")u.aguarde(2500)
 					limpa()
-					escreva("Após a compra, Gustavo andou mais um pouco e começou a ouvir vozes chamando-lhe.\n")u.aguarde(2500)
-					escreva("Por incrível que pareça, não eram vozes da sua cabeça! Eram seus amigos!\n\n")u.aguarde(2500)
+					escreva("(Narração)-Após a compra, Gustavo andou mais um pouco e começou a ouvir vozes chamando-lhe.\n")u.aguarde(2500)
+					escreva("(Narração)-Por incrível que pareça, não eram vozes da sua cabeça! Eram seus amigos!\n\n")u.aguarde(2500)
 					escreva("(Zanette, Luigu e João Antônio)-GUSTAVOOOOO!!!!!\n")u.aguarde(2000)
 					escreva("(Gustavo)-OOOOOOIIII, \"TÔ\" INDO AÍ!\n\n")u.aguarde(2000)
-					escreva("Segundos depois, eles se encontram.\n\n")u.aguarde(2000)
+					escreva("(Narração)-Segundos depois, eles se encontram.\n\n")u.aguarde(2000)
 					escreva("(Gustavo)-Por que vocês estão aqui?\n")u.aguarde(2000)
-					escreva("(Zanette)-Ficamos com medo pela demora e viemos te procurar.")u.aguarde(1500) escreva(" agente veio buscar juntos, vai ser da hora.\n")u.aguarde(2000)
-					escreva("\nEntão, lá se vai o grupo atrás da bola!")u.aguarde(3500)
+					escreva("(Zanette)-Ficamos com medo pela demora e viemos te procurar.")u.aguarde(1500) escreva(" a gente veio buscar juntos, vai ser da hora.\n")u.aguarde(2000)
+					escreva("\n(Narração)-Então, lá se vai o grupo atrás da bola!")u.aguarde(3500)
 					limpa()
 
 					u.aguarde(1500) 
-					escreva("O grupo segue andando, todos c4g@d05.")u.aguarde(2000) escreva(" Até que eles encontram a...\n")u.aguarde(3000)
+					escreva("(Narração)-O grupo segue andando, todos aterrorizados.")u.aguarde(2000) escreva(" Até que eles encontram a...\n")u.aguarde(3000)
 					escreva("\n\n\n...")u.aguarde(2000)
 					limpa()
 escreva(" _______    _______    _______    _______              _________   _______    _______ \n")
@@ -766,10 +766,10 @@ boss=" na Preguiça Gigante!"
 
 	}
 	funcao dialogoJuntosAposCompra(){
-		escreva("\n\nEntão, eles continuaram a jornada.")u.aguarde(2500)
+		escreva("\n\n(Narração)-Então, eles continuaram a jornada.")u.aguarde(2500)
 		limpa()
 		u.aguarde(1500) 
-		escreva("O grupo segue andando, todos c4g@d05.")u.aguarde(2000) escreva(" Até que eles encontram a...\n")u.aguarde(3000)
+		escreva("(Narração)-O grupo segue andando, todos aterrorizados.")u.aguarde(2000) escreva(" Até que eles encontram a...\n")u.aguarde(3000)
 		escreva("\n\n\n...")u.aguarde(2000)
 		limpa()
 escreva(" _______    _______    _______    _______              _________   _______    _______ \n")
@@ -879,10 +879,10 @@ boss=" na Preguiça Gigante!"
 		
 	}
 	funcao fuga(){
-		escreva("(Gustavo)-\"VAMO\" FUGIR CARAL#%!\n")u.aguarde(3000)
-escreva("(Todos)-AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA!!!\n")u.aguarde(2000)
+		escreva("(Gustavo)-VAMO FUGIR GENTEEE!\n")u.aguarde(3000)
+escreva("(Todos)-AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAHHHHHHHHH!!!\n")u.aguarde(2000)
 limpa() u.aguarde(1000)
-escreva("Assim, o grupo foge. Se eles tivessem batalhado, teriam ganhado uma boa recompensa...")u.aguarde(4000)
+escreva("(Narração)-Assim, o grupo foge. Se eles tivessem batalhado, teriam ganhado uma boa recompensa...")u.aguarde(4000)
 limpa()
                                                                                                                  
 escreva("                                                                                          dddddddd                    \n")
